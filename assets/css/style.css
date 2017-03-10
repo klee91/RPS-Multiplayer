@@ -1,0 +1,129 @@
+
+
+#player-entry {
+	float: left;
+	width: 20%;
+	margin-left: 39%;
+	margin-right: 1%;
+}
+
+label {
+	display: block;
+	margin: auto;
+	padding: 0;
+	font-size: 18px;
+}
+
+#submitname {
+	display: block;
+	float: left;
+	padding: 5px;
+	margin: auto;
+}
+
+#player-one {
+	position: relative;
+	text-align: center;
+	width: 30%;
+	height: 300px;
+	border: solid 1px black; 
+	margin: 20px;
+	padding: 10px;
+}
+
+#arena {
+	text-align: center;
+	width: 30%;
+	height: 300px;
+	border: solid 1px black;
+	margin: 20px;
+}
+
+#player-two {
+	position: relative;
+	text-align: center;
+	width: 30%;
+	height: 300px;
+	border: solid 1px black;
+	margin: 20px;
+	padding: 10px;
+}
+
+#game {
+	margin: 20px;
+}
+
+.wrapper1 {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+#user-name {
+	text-align: center;
+}
+
+#userscore1, #userscore2 {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	
+}
+
+.rock1, .paper1, .scissors1, .rock2, .paper2, .scissors2 {
+	font-size: 18px;
+}
+
+.rock1:hover {
+	border: solid 1px black;
+}
+
+.paper1:hover {
+	border: solid 1px black;
+}
+
+.scissors1:hover {
+	border: solid 1px black;
+}
+
+.rock2:hover {
+	border: solid 1px black;
+}
+
+.paper2:hover {
+	border: solid 1px black;
+}
+
+.scissors2:hover {
+	border: solid 1px black;
+}
+
+#chatbox {
+	width: 500px;
+	height: 525px;
+	border: solid 1px black;
+}
+
+#messages {
+	margin: auto;
+	margin-top: 25px;
+	width: 450px;
+	height: 400px;
+	border: solid 1px black;
+}
+
+#usermsg {
+	margin: 10px;
+	width: 400px;
+}
+
+#submitmsg {
+	margin-left: 10px;
+}

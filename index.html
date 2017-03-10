@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type ="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Rock Paper Scissors Multiplayer</title>
+
+	<script src="https://www.gstatic.com/firebasejs/3.7.0/firebase.js"></script>
+</head>
+
+<body>
+
+<h1 class="header jumbotron text-center">Rock Paper Scissors<br>Multiplayer</h1>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<form>
+				<div class="form-group">
+					
+					<label for="player-entry" class="text-center enter-name">Enter Name</label>
+					<input class="form-control" id="player-entry" type="text">
+				</div>
+				<button class="btn btn-primary" name="submitname" type="submit"  id="submitname">Send</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" id="game">
+	<div class="row col-lg-12">
+		<div class="wrapper1">
+			<div id="player-one" >Waiting for Player 1</div>
+			<div id="arena" ></div>
+			<div id="player-two" >Waiting for Player 2</div>
+		</div>
+	</div>
+</div>
+
+<div class="container" id="chatbox">
+	<div id="messages"></div>
+	<form name="message" action="">
+        <input name="usermsg" type="text" id="usermsg" size="63">
+        <button name="submitmsg" type="submit"  id="submitmsg" value="Send">Submit</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>	
+
+</body>
+</html>
